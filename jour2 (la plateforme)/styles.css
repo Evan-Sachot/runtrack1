@@ -1,0 +1,103 @@
+body{
+background-color: rgba(8, 8, 8, 0.963);
+color: white;
+}
+
+.laplateforme {
+ width: 50%;
+}
+.lien{
+    display: inline-flex;
+    align-content: space-between;
+    margin-left: 10px;
+    padding: 1%;
+}
+.liens:hover {
+  background-color:rgba(255, 255, 255, 0.416);
+}
+
+a{
+ color: rgb(255, 255, 255);
+   
+}
+p{
+ text-align: center;
+}
+.bloclien{
+ text-align: center;
+
+}
+.lien2{
+    padding:1%;
+    
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width:"40%";
+ height:"50%";
+ padding-top: 10px;
+}
+.lien3 {
+padding: 1%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+/* page qui sommes nous */
+.para{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.certifications{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.certifications1{
+ display: flex;
+ justify-content: space-evenly;
+ padding-bottom: 30px;
+}
+.certifications2{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.imgcertifications{
+  width: 40%;
+  padding-left: 5px;
+}
+/* page coding-school */
+#maindev{
+ background-color: rgb(3, 3, 78);
+}
+.borderpara{
+    border: solid;
+}
+@media screen and (min-width:768px) {
+  .container {
+    flex-direction: row;
+
+}
+}
+@media screen and (min-width:993px) {
+  
+}
