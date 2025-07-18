@@ -81,21 +81,18 @@ align-items: center;
 .certifications{
  display: flex;
  flex-direction: column;
- 
-}
-.certifications1{
- display: flex;
- justify-content: space-evenly;
- padding-bottom: 30px;
-}
-.certifications2{
- display: flex;
- justify-content: space-evenly;
+ gap: 10px;
+
 }
 
+
+
 .imgcertifications{
-  width: 40%;
+  width: 150px;
+  height: 100px;
   padding-left: 5px;
+  display: flex;
+  align-items: center;
 }
 /* page coding-school */
 #maindev{
@@ -110,7 +107,7 @@ align-items: center;
 
 }
 }
-@media screen and (min-width:993px) {
+@media only screen and (min-width:993px) {
   .para{
     display: flex;
     flex-direction: row;
@@ -123,13 +120,31 @@ align-items: center;
   flex-direction: row;
   justify-content: space-around;
   padding: 100px;
+  gap: 10px;
+  border: none;
   }
-  footer{
-    }
+
   .lien3{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     
   }
+  .certifications{
+  display: flex;
+  flex-direction: row;  
+}
+.certifications1{
+display: flex;
+width: 50%;
+
+}
+.certifications2{
+width: 50%;
+display: flex;
+
+
+}
+
+
 }
