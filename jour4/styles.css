@@ -91,8 +91,7 @@ align-items: center;
   width: 150px;
   height: 100px;
   padding-left: 5px;
-  display: flex;
-  align-items: center;
+
 }
 /* page coding-school */
 #maindev{
@@ -101,6 +100,80 @@ align-items: center;
 .borderpara{
     border: solid;
 }
+/* footer */
+footer{
+display: flex;
+flex-direction: column;
+}
+
+#imgfooter{
+width: 500px;
+}
+.imgfooters{
+  margin-top: 20px;
+margin-bottom: 20px;
+height: 30px;
+width: 30px;
+background-size: contain;
+background-position: center;
+}
+
+
+
+.imgfooter1{
+background-image: url(facebook.img.png);
+} 
+.imgfooter2{
+background-image: url(instagram.png);
+}
+.imgfooter3{
+background-image: url(indeed.png);
+}
+.imgfooter4{
+background-image: url(twitter.png);
+}
+.imgfooter5{
+background-image: url(youtube.png);
+}
+/* button */
+.buttonfooter{
+display: flex;
+flex-direction: column;
+width: 200px;
+}
+#button1{
+margin-top: 10px;
+}
+#button2{
+  margin-top: 10px;
+ color: white;
+background-color: red;
+}
+.conteinerfooter1{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.conteinerfooter2{
+margin-top: 40px;
+
+}
+.conteinerfooter4{
+display: flex;
+flex-direction: column;
+}
+.liens{
+text-decoration: none;
+}
+.listefooter{
+  list-style-type: none;
+}
+.buttoncontact{
+margin-left: 40px;
+width: 100px;
+}
+.imgApril{
+width: 300px;
+}
 @media screen and (min-width:768px) {
   .container {
     flex-direction: row;
@@ -108,6 +181,26 @@ align-items: center;
 }
 }
 @media only screen and (min-width:993px) {
+  footer{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+#imgfooter{
+width: 250px;
+}
+.conteinerfooter1{
+  margin-top: 40px;
+}
+.conteinerfooter2{
+  margin-top: 40px;
+}
+.conteinerfooter3{
+  margin-top: 40px;
+}
+.conteinerfooter4{
+  margin-top: 30px;
+}
   .para{
     display: flex;
     flex-direction: row;
