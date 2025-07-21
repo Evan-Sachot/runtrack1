@@ -2,6 +2,9 @@ body{
 background-color: rgb(31,28, 28);
 color: white;
 }
+a:hover{
+transition: ease-in-out 0.5s ;
+}
 
 .laplateforme {
  width: 50%;
@@ -14,7 +17,7 @@ color: white;
     padding: 1%;
 }
 .liens:hover {
-  background-color:rgba(255, 255, 255, 0.416);
+color:rgba(255, 255, 255, 0.416);
 }
 
 a{
@@ -207,8 +210,9 @@ justify-content: space-evenly;
 }
 
 .imgpart{
-width: 100%;
+object-fit: contain;
 height: 80px;
+
 }
   footer{
   width: 100%;
@@ -241,10 +245,10 @@ width: 250px;
   .video{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 100px;
-  gap: 10px;
+  justify-content: center;
+  gap: 1em;
   border: none;
+  padding-bottom: 3.3em;
   }
 
   .lien3{
